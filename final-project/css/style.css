@@ -178,3 +178,7 @@ ul li:nth-child(1) {
     width: 100%;
     color: white; /* Assuming you want white text */
 }
+
+table{
+    border: 1px solid black
+}
