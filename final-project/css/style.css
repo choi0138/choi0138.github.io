@@ -1,0 +1,104 @@
+html {
+    margin: 0;
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;   
+}
+/* 1st section - Home */
+header {
+    background-color: #222222;
+    padding: 0.7rem 0.7rem 0 0.7rem;
+    height: 510px;
+}
+
+.home {
+    background-color:#c68d00;
+    padding: 1rem 0 6rem;
+    position: relative;
+}
+
+nav {
+    position: relative;
+    top:-5rem;
+}
+nav ul {
+    color: #c68d00;
+    list-style: none;
+    font-size: 1.3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+ul li:nth-child(1) {
+    color: #222222;
+}
+
+#homesearch {
+    position: relative;
+    top:-6rem;
+    width: 90%;
+    font-size: 1.3rem;
+    height: 2rem;
+}
+
+/* 2nd ssection - Welcom to the.. */
+.sec2 {
+    background-size: 100%;
+    background-image: url(../images/main-banner.jpg);
+    padding-top: 4.5rem;
+    padding-bottom: 2.3rem;
+    background-repeat: no-repeat;
+
+}
+
+.sec2 article {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 3.5rem;
+    padding-bottom: 0;
+    padding-left: 0.7rem;
+}
+.sec2 h1{
+    color: white;
+    margin: 0;
+}
+
+.sec2 p{
+    color: white;
+}
+
+.sec2 button {
+    background-color: #c68d00;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+/* 3rd section - Welcom to the.. */
+
+.sec3 {
+    background-color: bisque;
+    padding-bottom: 3rem;
+}
+.sec3 img {
+    width: 100%;
+    margin: 1rem;
+    container
+}
+
+
+
+
+@media screen and (min-width: 760px) {
+    /* CSS for a 480px viewport and larger goes here */
+    }
+    
