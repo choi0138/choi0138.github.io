@@ -1,7 +1,6 @@
 html {
     margin: 0;
-    max-width: 1200px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,6 +10,14 @@ body {
 h1 {
     font-size: 5rem;   
 }
+
+h2 {
+    font-size:3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
 /* 1st section - Home */
 header {
     background-color: #222222;
@@ -19,7 +26,7 @@ header {
 }
 
 .home {
-    background-color:#c78c06;
+    background-color:#c68d00;
     padding: 1rem 0 6rem;
     position: relative;
 }
@@ -87,18 +94,87 @@ ul li:nth-child(1) {
 
 .sec3 {
     background-color: bisque;
-    padding-bottom: 3rem;
+    
 }
 .sec3 img {
     width: 100%;
-    margin: 1rem;
-    container
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.sec3 h2 {
+    margin: 0;
 }
 
+.sec3 h2, p {
+    padding-left:1rem;
+}
 
+.sec3 p {
+    padding-bottom: 2rem;
+}
 
+/* 4th section - Our Services */
 
-@media screen and (min-width:760px) {
-    /* CSS for a 480px viewport and larger goes here */
-    }
-    
+.sec4 h2 {
+    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+}
+
+.sec4 article, .sec5 article, .sec6 article, .sec7 article, .sec8 article {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.sec4 article .content, .sec5 article .content, .sec6 article .content, .sec7 article .content, .sec8 article .content{
+    padding: 1rem;
+    background-color: bisque;
+}
+
+.sec4 img, .sec5 img, .sec6 img, .sec7 img, .sec8 img {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.sec4 h3, .sec5 h3, .sec6 h3, .sec7 h3, .sec8 h3 {
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.sec4 p, .sec5 p, .sec6 p, .sec7 p, .sec8 p {
+    padding-left: 0;
+}
+
+.sec4 button, .sec5 button, .sec6 button, .sec7 button, .sec8 button {
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+    padding: 2rem;
+    border: none;
+}
+
+/* 5th section - Our Services */
+/* 5th section shares CSS code with 4th section */
+
+/* 6th section - Video Productio */
+/* 6th section shares CSS code with 4th section */
+
+/* 7th section - Web Development */
+/* 7th section shares CSS code with 4th section */
+
+/* 8th section - print */
+/* 8th section shares CSS code with 4th section */
+
+/* 9th section - Our vision */
+
+.sec9 {
+    background-image: url(../images/vision.jpg);
+    background-size: cover; 
+    width: 100%;
+    color: white; /* Assuming you want white text */
+}
