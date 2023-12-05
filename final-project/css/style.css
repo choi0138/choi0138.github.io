@@ -126,7 +126,7 @@ ul li:nth-child(1) {
     padding-bottom: 2rem;
 }
 
-/* Button inside the .sec2 section */
+/* button styles */
 .sec2 .connect-button {
     display: flex;
     justify-content: center;
@@ -138,17 +138,16 @@ ul li:nth-child(1) {
     border: none; 
 }
 
-.sec2 .material-symbols-outlined {
-    font-size: 2.5rem; 
-    margin-left: 0.5rem; 
-    color: black;
-    border: none;
+.sec2 .img2 {
+    width: 3rem;
+    height: auto; 
+    display: inline-block;
+    vertical-align: middle;
 }
-
 /* 3rd section - Welcom to the.. */
 
 .sec3 {
-    background-color: bisque;
+    background-color: #ffe6ac;
     
 }
 .sec3 img {
@@ -171,6 +170,7 @@ ul li:nth-child(1) {
 /* 4th section - Our Services */
 
 .sec4 h2 {
+    margin-top: 4rem;
     margin-bottom: 0.3rem;
     margin-left: 1rem;
 }
@@ -185,7 +185,7 @@ ul li:nth-child(1) {
 
 .sec4 article .content, .sec5 article .content, .sec6 article .content, .sec7 article .content, .sec8 article .content{
     padding: 1rem;
-    background-color: bisque;
+    background-color: ffe6ac;
 }
 
 .sec4 img, .sec5 img, .sec6 img, .sec7 img, .sec8 img {
@@ -196,22 +196,34 @@ ul li:nth-child(1) {
     box-sizing: border-box;
 }
 
+.sec4 .container4, .sec5 .container5, .sec6 .container6, .sec7 .container7, .sec8 .container8{
+    background-color: #ffe6ac;
+    padding: 0;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+
+}
+
 .sec4 h3, .sec5 h3, .sec6 h3, .sec7 h3, .sec8 h3 {
     margin-top: 0;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .sec4 p, .sec5 p, .sec6 p, .sec7 p, .sec8 p {
-    padding-left: 0;
+    padding: 1rem;
+
 }
 
 .sec4 button, .sec5 button, .sec6 button, .sec7 button, .sec8 button {
     background-color: black;
     font-size: 1.5rem;
     color: white;
+    margin-left: 1rem;
     padding: 2rem;
     border: none;
 }
+
 
 /* 5th section - Our Services */
 /* 5th section shares CSS code with 4th section */
