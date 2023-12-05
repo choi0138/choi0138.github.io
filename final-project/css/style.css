@@ -434,7 +434,15 @@ td {
     border: 0.1rem solid #222;
 }
 
-/* 14th section - ㅣㅐㅊㅁ샤ㅐ
+/* 14th section - Location */
+
+.sec14 {
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    padding-top: 0;
+}
+
 
 
 @media (min-width: 760px) {
@@ -443,4 +451,3 @@ td {
     }
 
     /* Additional styles for larger screens */
-}
