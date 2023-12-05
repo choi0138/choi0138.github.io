@@ -27,7 +27,7 @@ h3 {
 }
 
 /* maximum width - 1200px */
-.section {
+header, section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0; 
@@ -48,7 +48,7 @@ header {
 
 nav {
     position: relative;
-    top:-5rem;
+    top:-4rem;
 }
 nav ul {
     color: #c68d00;
@@ -66,12 +66,46 @@ ul li:nth-child(1) {
     color: #222222;
 }
 
-#homesearch {
+#homesearch{
     position: relative;
-    top:-6rem;
-    width: 90%;
+    top:-4.8rem;
+    width: 93%;
     font-size: 1.3rem;
-    height: 2rem;
+    height: 2.5rem;
+}
+
+/* magnifying class icon styles
+.material-symbols-outlined{
+    position: relative;
+    font-size: 2.3rem;
+    top: -4.1rem;
+    color: #c68d00;
+    border: solid #c68d00 0.1rem;
+}
+ */
+
+/* Search Box Styles */
+.search-box {
+    position: relative;
+    display: flex; 
+    width: 100%; 
+    /* max-width: 740px; */
+    margin: 0;
+}
+
+#homesearch {
+    flex-grow: 1;
+    font-size: 1.3rem;
+    height: 2.5rem;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: -4.8rem;
+    font-size: 1.8rem;
+    color: #c68d00;
+    border: solid #c68d00 0.1rem;
+    padding: 5px;
 }
 
 /* 2nd ssection - Welcom to the.. */
