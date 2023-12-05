@@ -74,22 +74,12 @@ ul li:nth-child(1) {
     height: 2.5rem;
 }
 
-/* magnifying class icon styles
-.material-symbols-outlined{
-    position: relative;
-    font-size: 2.3rem;
-    top: -4.1rem;
-    color: #c68d00;
-    border: solid #c68d00 0.1rem;
-}
- */
 
 /* Search Box Styles */
 .search-box {
     position: relative;
     display: flex; 
     width: 100%; 
-    /* max-width: 740px; */
     margin: 0;
 }
 
@@ -110,18 +100,17 @@ ul li:nth-child(1) {
 
 /* 2nd ssection - Welcom to the.. */
 .sec2 {
-    background-size: 100%;
+    background-size: cover;
     background-image: url(../images/main-banner.jpg);
     padding-top: 4.5rem;
     padding-bottom: 2.3rem;
     background-repeat: no-repeat;
-
 }
 
 .sec2 article {
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 3.5rem;
-    padding-bottom: 0;
+    padding-bottom: 3rem;
     padding-left: 0.7rem;
 }
 .sec2 h1{
@@ -131,12 +120,29 @@ ul li:nth-child(1) {
 
 .sec2 p{
     color: white;
+    padding: 0;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.sec2 button {
-    background-color: #c68d00;
-    font-size: 1.5rem;
-    padding: 2rem;
+/* Button inside the .sec2 section */
+.sec2 .connect-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c68d00; 
+    color: black; 
+    font-size: 1.5rem; 
+    padding: 1rem 2rem; 
+    border: none; 
+}
+
+.sec2 .material-symbols-outlined {
+    font-size: 2.5rem; 
+    margin-left: 0.5rem; 
+    color: black;
+    border: none;
 }
 
 /* 3rd section - Welcom to the.. */
