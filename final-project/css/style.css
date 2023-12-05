@@ -25,6 +25,14 @@ h2 {
 h3 {
     font-size: 2rem;
 }
+
+/* maximum width - 1200px */
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0; 
+}
+
 /* 1st section - Home */
 header {
     background-color: #222222;
