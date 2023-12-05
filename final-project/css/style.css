@@ -6,8 +6,7 @@
 }
 
 html {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -15,15 +14,19 @@ body {
 }
 
 h1 {
-    font-size: 5rem;   
+    font-size: 3.5rem;   
 }
 
 h2 {
-    font-size:3rem;
+    font-size:2.5rem;
 }
 
 h3 {
     font-size: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
 }
 
 /* maximum width - 1200px */
@@ -35,13 +38,13 @@ header, section {
 
 /* 1st section - Home */
 header {
-    background-color: #222222;
+    background-color: #222;
     padding: 0.7rem 0.7rem 0 0.7rem;
     height: 510px;
 }
 
 .home {
-    background-color:#c68d00;
+    background-color:#c78c06;
     padding: 1rem 0 6rem;
     position: relative;
 }
@@ -51,7 +54,7 @@ nav {
     top:-4rem;
 }
 nav ul {
-    color: #c68d00;
+    color: #c78c06;
     list-style: none;
     font-size: 1.3rem;
     position: relative;
@@ -63,7 +66,7 @@ nav ul {
 }
 
 ul li:nth-child(1) {
-    color: #222222;
+    color: #222;
 }
 
 #homesearch{
@@ -93,8 +96,8 @@ ul li:nth-child(1) {
     position: relative;
     top: -4.8rem;
     font-size: 1.8rem;
-    color: #c68d00;
-    border: solid #c68d00 0.1rem;
+    color: #c78c06;
+    border: solid #c78c06 0.1rem;
     padding: 5px;
 }
 
@@ -131,8 +134,8 @@ ul li:nth-child(1) {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c68d00; 
-    color: black; 
+    background-color: #c78c06; 
+    color: #222; 
     font-size: 1.5rem; 
     padding: 1rem 2rem; 
     border: none; 
@@ -175,6 +178,7 @@ ul li:nth-child(1) {
     margin-left: 1rem;
 }
 
+
 .sec4 article, .sec5 article, .sec6 article, .sec7 article, .sec8 article {
     width: 100%;
     padding: 1rem;
@@ -201,29 +205,66 @@ ul li:nth-child(1) {
     padding: 0;
     padding-bottom: 1rem;
     margin: 1rem;
+    margin-bottom: 0;
     margin-top: 0;
 
 }
 
+/* sec4~sec8 h3 styles */
 .sec4 h3, .sec5 h3, .sec6 h3, .sec7 h3, .sec8 h3 {
     margin-top: 0;
     padding: 1rem;
 }
 
+/* sec4~sec8 paragraph styles */
 .sec4 p, .sec5 p, .sec6 p, .sec7 p, .sec8 p {
     padding: 1rem;
 
 }
-
+/* sec4~sec8 button styles */
 .sec4 button, .sec5 button, .sec6 button, .sec7 button, .sec8 button {
-    background-color: black;
+    background-color: #222;
     font-size: 1.5rem;
     color: white;
     margin-left: 1rem;
     padding: 2rem;
     border: none;
 }
+/* sec4~sec8 arrow styles */
+.sec4 .arrow4, .sec5 .arrow5, .sec6 .arrow6, .sec7 .arrow7, .sec8 .arrow8{
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+    padding-left: 1.5rem;
+}
 
+/* sec4~sec8 h3 styles */
+.sec4 h3, .sec5 h3, .sec6 h3, .sec7 h3, .sec8 h3 {
+    margin-top: 0;
+    padding: 1rem;
+}
+
+/* sec4~sec8 paragraph styles */
+.sec4 p, .sec5 p, .sec6 p, .sec7 p, .sec8 p {
+    padding: 1rem;
+
+}
+/* sec4~sec8 button styles */
+.sec4 button, .sec5 button, .sec6 button, .sec7 button, .sec8 button {
+    background-color: #222;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 1rem;
+    padding: 2rem;
+    border: none;
+}
+/* sec4~sec8 arrow styles */
+.sec4 .arrow4, .sec5 .arrow5, .sec6 .arrow6, .sec7 .arrow7, .sec8 .arrow8{
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+    padding-left: 1.5rem;
+}
 
 /* 5th section - Our Services */
 /* 5th section shares CSS code with 4th section */
@@ -240,20 +281,139 @@ ul li:nth-child(1) {
 /* 9th section - Our vision */
 
 .sec9 {
-    background-image: url(../images/vision.jpg);
-    background-size: cover; 
+    background-image: url('../images/vision.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 50% 50%;
     width: 100%;
-    color: white; /* Assuming you want white text */
+    color: white;
+    height: 300px;
+    margin-top: 2rem;
+}
+
+.sec9 h3{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.sec9 p{
+    padding-bottom: 1.5rem;
+}
+.sec9 button{
+    background-color: #222;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 1rem;
+    padding: 2rem;
+    border: none;
+    border: solid 0.1rem #c78c06;
+}
+
+.sec9 .arrow9{
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+    padding-left: 1.5rem;
+}
+
+
+/* 10th section - Our team */
+
+.sec10 h2 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.sec10 h3, .sec11 h3 {
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+.sec10 h4, .sec11 h4  {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: #c78c06 solid 0.1rem;
+}
+
+.sec10 article, .sec11 article {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.sec10 p, .sec11 p {
+    padding: 1rem;
+}
+
+.sec10 div, .sec11 div {
+    padding: 1rem;
+    background-color: #ffe6ac;
+}
+
+.sec10 img, .sec11 img {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.sec10 .container10, .sec11 .container11 {
+    background-color: #ffe6ac;
+    padding: 0;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+/* 12th section - Contact us */
+
+.sec12 {
+    padding: 2rem;
+}
+
+.sec12 h2 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.sec12 h3 {
+    padding-bottom: 1rem;
+}
+
+#fname, #yemail {
+    width: 100%;
+}
+
+#ymessage {
+    width: 100%;
+    height: 7rem;
+}
+
+.sec12 button {
+    background-color: #222;
+    font-size: 1rem;
+    color: #c78c06;
+    border: none;
+    padding: 0.4rem;
+    margin-top: 1rem;
 }
 
 /* 13th section - Hours of operation */
 .sec13 {
-    max-width: 600px;
+    max-width: 100%;
     margin: 0;
+    padding: 2rem;
+    padding-top: 0;
 }
 
-.sec13 h2 {
-    margin-bottom: 20px;
+.sec13 h3 {
+    margin-bottom: 1rem;
 }
 
 table {
@@ -262,17 +422,19 @@ table {
 }
 
 th {
-    background-color: #FFD966;
-    color: #000;
-    border: 1px solid black;
-    padding: 10px;
+    background-color: #ffe6ac;
+    color: #222;
+    border: 0.1rem solid #222;
+    padding: 0.7rem;
 }
 
 td {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
+    text-align: left;
+    padding: 0.7rem;
+    border: 0.1rem solid #222;
 }
+
+/* 14th section - ㅣㅐㅊㅁ샤ㅐ
 
 
 @media (min-width: 760px) {
