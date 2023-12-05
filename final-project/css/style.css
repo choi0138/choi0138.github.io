@@ -1,3 +1,10 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -208,3 +215,10 @@ td {
 }
 
 
+@media (min-width: 760px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    /* Additional styles for larger screens */
+}
