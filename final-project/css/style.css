@@ -458,10 +458,12 @@ footer p {
     padding-bottom: 1rem;
     line-height: 2rem;
 }
-
+/* Footer styles */
 footer p a {
     color: #c78c06;
 }
+
+/* -------- mobile page ends -------- */
 
 @media (min-width: 760px) {
     .container {
@@ -469,3 +471,5 @@ footer p a {
     }
 }
     /* Additional styles for larger screens */
+
+    
