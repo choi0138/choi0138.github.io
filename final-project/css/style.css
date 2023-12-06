@@ -443,7 +443,25 @@ td {
     padding-top: 0;
 }
 
+.sec14 iframe {
+    width: 100%;
+}
 
+footer {
+    background-color: #222;
+    color: #c78c06;
+}
+
+footer p {
+    padding : 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+}
+
+footer p a {
+    color: #c78c06;
+}
 
 @media (min-width: 760px) {
     .container {
