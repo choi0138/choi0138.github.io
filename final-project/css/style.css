@@ -465,11 +465,33 @@ footer p a {
 
 /* -------- mobile page ends -------- */
 
-@media (min-width: 760px) {
-    .container {
-        max-width: 1200px;
-    }
-}
-    /* Additional styles for larger screens */
 
+/* Additional styles for larger screens */
+
+
+@media (min-width: 760px) {
+   header{
+    display:flex;
+    padding: 0;
+    height: 5rem;
+   }
+
+    header .home{
+        height: 2rem auto;
+        background-color: #222;
+        padding: 0;
+        vertical-align: center;
+    }
+
+    header img{
+        height: 50%;
+       }
     
+   nav ul{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    
+   }
+}
+
