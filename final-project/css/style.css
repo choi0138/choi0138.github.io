@@ -470,28 +470,21 @@ footer p a {
 
 
 @media (min-width: 760px) {
-   header{
-    display:flex;
-    padding: 0;
-    height: 5rem;
-   }
-
-    header .home{
-        height: 2rem auto;
-        background-color: #222;
-        padding: 0;
-        vertical-align: center;
+    nav ul {
+        flex-direction: row;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
     }
 
-    header img{
-        height: 50%;
-       }
-    
-   nav ul{
-    display:flex;
-    flex-direction: row;
-    align-content: center;
-    
-   }
+    div .home {
+        width: 3rem;
+    }
+    nav ul li:nth-child(1) {
+        background-color: #c78c06;
+    }
+
 }
 
