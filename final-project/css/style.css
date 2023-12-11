@@ -470,6 +470,9 @@ footer p a {
 
 
 @media (min-width: 760px) {
+
+    /* header style start*/
+
     header {
         display: grid;
         grid-template-columns: auto 1fr auto; 
@@ -523,6 +526,16 @@ footer p a {
         top: 0.7rem;
     }
 
-    /* Additional styles if needed */
+        /* header style end*/
+
+        /* body style start */
+
+    /* sec3 style; */
+
+    .sec2 article {
+        margin: 4rem;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
 }
 
