@@ -468,23 +468,62 @@ footer p a {
 
 /* Additional styles for larger screens */
 
+HEADER 
 
 @media (min-width: 760px) {
+    header {
+        display: grid;
+        grid-template-columns: auto 1fr auto; 
+        grid-template-areas: "logo nav search";
+        align-items: center;
+        height: 10rem;
+        padding: 0 4rem;
+    }
+
+    .home {
+        grid-area: logo;
+        padding: 0;
+        position:relative;
+        top: -4rem;
+    }
+
+    /* Position and style the navigation */
+    nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100%; 
+    }
+
     nav ul {
+        display: flex;
+        list-style: none;
         flex-direction: row;
-        background-color: #333;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
+        padding: 0;
+        margin: 0; 
+        justify-content: center;
+        align-items: center; 
     }
 
-    div .home {
-        width: 3rem;
-    }
-    nav ul li:nth-child(1) {
-        background-color: #c78c06;
+    nav ul li {
+        color: #c78c06;
+        padding: 1rem;
+        white-space: nowrap;
     }
 
+    nav ul li:first-child {
+        background-color: #c78c06; 
+        padding: 0.5rem 1rem;
+    }
+    
+    /* Position and style the search box */
+    .search-box {
+        grid-area: search;
+        position: relative;
+        top: 0.7rem;
+    }
+
+    /* Additional styles if needed */
 }
 
