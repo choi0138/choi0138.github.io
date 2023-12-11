@@ -278,6 +278,12 @@ ul li:nth-child(1) {
 /* 8th section - print */
 /* 8th section shares CSS code with 4th section */
 
+/* sec4~sec8 container style for wide version */
+
+div .grid-contianer{
+    margin: 0;
+    padding: 0;
+}
 /* 9th section - Our vision */
 
 .sec9 {
@@ -569,5 +575,47 @@ footer p a {
 
     /* Sec4 ~ Sec8 style */
 
+    .sec4{
+        position:relative;
+        top: -8rem;
+    }
+
+    .grid-container {
+        display: grid;
+        margin-top: 5rem;
+        padding: 4rem;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "sec4 sec4 sec4 sec5 sec5 sec5"
+            "sec6 sec6 sec7 sec7 sec8 sec8"; 
+    }
+    
+    .sec4 { 
+        grid-area: sec4; 
+        padding: 0;
+    }
+    .sec4 img {
+        padding: 0;
+    }
+    .sec4 .container4 {
+        padding: 0;
+    }
+    
+    .sec5 { 
+        grid-area: sec5; 
+        padding: 0;
+    }
+    .sec6 { 
+        grid-area: sec6; 
+        padding: 0;
+    }
+    .sec7 { 
+        padding: 0;
+        grid-area: sec7; }
+    .sec8 { 
+        grid-area: sec8; 
+        padding: 0;
+    }
     
 }
