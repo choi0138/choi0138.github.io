@@ -535,6 +535,7 @@ footer p a {
     .sec2 article {
         margin: 4rem;
         padding-top: 0;
+        padding-bottom: 0.5rem;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -548,6 +549,8 @@ footer p a {
             "img h2"
             "img p"; 
         align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
 
     }
 
@@ -563,4 +566,8 @@ footer p a {
     .sec3 p {
         grid-area: p;
     }
+
+    /* Sec4 ~ Sec8 style */
+
+    
 }
