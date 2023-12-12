@@ -30,11 +30,12 @@ h4 {
 }
 
 /* maximum width - 1200px */
-header, section {
+header, section, .grid-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0; 
 }
+
 
 /* 1st section - Home */
 header {
@@ -585,7 +586,6 @@ footer p a {
         margin-top: 5rem;
         padding: 4rem;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: auto;
         grid-template-areas: 
             "sec4 sec4 sec4 sec5 sec5 sec5"
             "sec6 sec6 sec7 sec7 sec8 sec8"; 
@@ -593,28 +593,33 @@ footer p a {
     
     .sec4 { 
         grid-area: sec4; 
+        display: flex;
+        flex-grow: 1;
         padding: 0;
+        object-fit: cover;
     }
-    .sec4 img {
-        padding: 0;
-    }
-    .sec4 .container4 {
-        padding: 0;
-    }
+
     
     .sec5 { 
         grid-area: sec5; 
+        display: flex;
+        flex-grow: 1;
         padding: 0;
+        object-fit: cover;
     }
     .sec6 { 
         grid-area: sec6; 
         padding: 0;
+        object-fit: cover;
     }
     .sec7 { 
         padding: 0;
+        object-fit: cover;
         grid-area: sec7; }
+
     .sec8 { 
         grid-area: sec8; 
+        object-fit: cover;
         padding: 0;
     }
     
