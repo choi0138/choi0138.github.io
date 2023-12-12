@@ -196,7 +196,7 @@ ul li:nth-child(1) {
 
 .sec4 article .content, .sec5 article .content, .sec6 article .content, .sec7 article .content, .sec8 article .content{
     padding: 1rem;
-    background-color: ffe6ac;
+    background-color: #ffe6ac;
 }
 
 .sec4 img, .sec5 img, .sec6 img, .sec7 img, .sec8 img {
@@ -520,7 +520,7 @@ footer p a {
     .home image {
         width: 3rem;
         height: auto;
-    };
+    }
 
     /* Position and style the navigation */
     nav {
@@ -657,7 +657,7 @@ footer p a {
     }
 
     button {
-        font-size: 0.5;
+        font-size: 0.5rem;
     }
 
     /* Sec10 style */
@@ -750,5 +750,4 @@ footer p a {
     footer {
         padding-left: 4rem;
     }
-
 }
