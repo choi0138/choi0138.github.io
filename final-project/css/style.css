@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* basic element setting */
 html {
     font-family: 'Open Sans', sans-serif;
 }
@@ -30,7 +30,7 @@ h4 {
 }
 
 /* maximum width - 1200px */
-header, section, .flex-container1, .flex-container2 {
+header, section, .flex-container1, .flex-container2, footer, .grid-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0; 
@@ -484,7 +484,7 @@ footer p a {
     color: #c78c06;
 }
 
-/* -------- mobile page ends -------- */
+/* -------------- mobile page ends -------------- */
 
 
 /* Additional styles for larger screens */
