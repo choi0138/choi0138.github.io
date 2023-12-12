@@ -177,11 +177,9 @@ ul li:nth-child(1) {
     padding: 0;
 }
 
-.flex-container1 .sec5 {
-    position: relative;
-    top: 54.5px;
+.sec4 h2 {
+    margin-top: 2rem;
 }
-
 .flex-container1 .sec4 h2{
     padding-left: 1rem;
 }
@@ -606,6 +604,10 @@ footer p a {
         padding-left: 0;
     }
     
+    .sec4 h2 {
+        margin-top: 0;
+    }
+    
 
     .sec5 {
         position: relative;
@@ -719,6 +721,7 @@ footer p a {
         padding: 6rem;
         padding-top: 0;
         gap: 1rem;
+        padding-bottom: 1rem;
     }
 
     .sec12 {
