@@ -30,7 +30,7 @@ h4 {
 }
 
 /* maximum width - 1200px */
-header, section, .grid-container {
+header, section, .flex-container1, .flex-container2 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0; 
@@ -281,10 +281,21 @@ ul li:nth-child(1) {
 
 /* sec4~sec8 container style for wide version */
 
-div .grid-contianer{
+/* div .grid-contianer{
+    margin: 0;
+    padding: 0;
+} */
+
+div .flex-contianer1{
     margin: 0;
     padding: 0;
 }
+
+div .flex-contianer2{
+    margin: 0;
+    padding: 0;
+}
+
 /* 9th section - Our vision */
 
 .sec9 {
@@ -476,8 +487,14 @@ footer p a {
 /* Additional styles for larger screens */
 
 
+
 @media (min-width: 760px) {
 
+
+    h3 {
+        font-size: 1.7rem;
+    }
+    
     /* header style start*/
 
     header {
@@ -576,51 +593,65 @@ footer p a {
 
     /* Sec4 ~ Sec8 style */
 
-    .sec4{
-        position:relative;
-        top: -8rem;
+    .sec4 h2 {
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
     }
 
-    .grid-container {
-        display: grid;
-        margin-top: 5rem;
+    .sec5 {
+        position: relative;
+        top: 54.5px;
+
+    }
+
+    .flex-container1, .flex-container2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch; 
         padding: 4rem;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-areas: 
-            "sec4 sec4 sec4 sec5 sec5 sec5"
-            "sec6 sec6 sec7 sec7 sec8 sec8"; 
-    }
-    
-    .sec4 { 
-        grid-area: sec4; 
-        display: flex;
-        flex-grow: 1;
-        padding: 0;
-        object-fit: cover;
+        gap:1rem
     }
 
-    
-    .sec5 { 
-        grid-area: sec5; 
-        display: flex;
-        flex-grow: 1;
-        padding: 0;
-        object-fit: cover;
+    .flex-container1 {
+        padding-bottom: 0;
     }
-    .sec6 { 
-        grid-area: sec6; 
-        padding: 0;
-        object-fit: cover;
-    }
-    .sec7 { 
-        padding: 0;
-        object-fit: cover;
-        grid-area: sec7; }
 
-    .sec8 { 
-        grid-area: sec8; 
-        object-fit: cover;
+    .flex-container2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .sec4 .container4, .sec5 .container5, .sec6 .container6, .sec7 .container7, .sec8 .container8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
         padding: 0;
     }
-    
+
+
+    .sec4 img, .sec5 img, .sec6 img, .sec7 img, .sec8 img {
+        width: 100%; 
+        height: auto;
+        padding:0;
+        padding-top: 1rem;
+        
+    }
+
+    .sec4 button, .sec5 button, .sec6 button, .sec7 button, .sec8 button {
+        /* Adjust button styling as needed */
+        margin-top: auto;
+        margin-right: 16px;
+        font-size: 1.3rem;
+    }
+
+    button {
+        font-size: 0.5;
+    }
+
+    /* Sec9 ~ Sec10 style */
+
+
 }
