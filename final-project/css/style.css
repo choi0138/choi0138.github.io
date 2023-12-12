@@ -641,7 +641,6 @@ footer p a {
     }
 
     .sec4 button, .sec5 button, .sec6 button, .sec7 button, .sec8 button {
-        /* Adjust button styling as needed */
         margin-top: auto;
         margin-right: 16px;
         font-size: 1.3rem;
@@ -651,8 +650,57 @@ footer p a {
         font-size: 0.5;
     }
 
-    /* Sec9 style */
-    
+    /* Sec10 style */
+
+    .sec10 article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "h2 h2"
+            "img div";
+        padding: 4rem;
+        padding-bottom: 0;
+    }
+
+    .sec10 h2 {
+        grid-area: h2;
+        padding-left: 1rem;
+        margin: 0;
+    }
+
+    .sec10 img {
+        grid-area: img;
+        padding: 0;
+    }
+
+    .sec10 .container10 {
+        grid-area: div;
+        margin: 0;
+    }
+    /* Sec11 style */
+
+    .sec11 article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "div img";
+        padding: 4rem;
+        padding-top: 0;
+    }
+
+    .sec11 img {
+        grid-area: img;
+        padding: 0;
+    }
+
+    .sec11 .container11 {
+        grid-area: div;
+        margin: 0;
+    }
+
+
+
 
 
 }
