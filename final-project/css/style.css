@@ -177,6 +177,7 @@ ul li:nth-child(1) {
     margin-top: 4rem;
     margin-bottom: 0.3rem;
     margin-left: 1rem;
+    padding-left: 0;
 }
 
 
@@ -495,7 +496,7 @@ footer p a {
 
     header {
         display: grid;
-        grid-template-columns: auto 1fr auto; 
+        grid-template-columns: 0.5fr 3fr 1.5fr; 
         grid-template-areas: "logo nav search";
         align-items: center;
         height: 10rem;
@@ -507,7 +508,13 @@ footer p a {
         padding: 0;
         position:relative;
         top: -4rem;
+        background-color: transparent;
     }
+
+    .home image {
+        width: 3rem;
+        height: auto;
+    };
 
     /* Position and style the navigation */
     nav {
