@@ -183,7 +183,7 @@ ul li:nth-child(1) {
 }
 
 .flex-container1 .sec4 h2{
-    padding: 0;
+    padding-left: 1rem;
 }
 
 .sec4 article, .sec5 article, .sec6 article, .sec7 article, .sec8 article {
@@ -602,11 +602,10 @@ footer p a {
 
     /* Sec4 ~ Sec8 style */
 
-    .sec4 h2 {
-        margin: 0;
-        padding: 0;
-        padding-left: 1rem;
+    .flex-container1 .sec4 h2{
+        padding-left: 0;
     }
+    
 
     .sec5 {
         position: relative;
