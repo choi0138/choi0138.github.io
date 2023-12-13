@@ -287,6 +287,9 @@ ul li:nth-child(1) {
 /* sec4~sec8 container style for wide version */
 
 
+
+/* .flex-container (sec4~sec8) setting */
+
 div .flex-contianer1{
     margin: 0;
     padding: 0;
