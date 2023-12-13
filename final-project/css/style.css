@@ -721,7 +721,7 @@ footer p a {
         grid-template-areas: 
             "contact map"
             "form form";
-        padding: 6rem;
+        padding: 4rem;
         padding-top: 0;
         gap: 1rem;
         padding-bottom: 1rem;
